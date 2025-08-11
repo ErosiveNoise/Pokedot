@@ -1,0 +1,335 @@
+[gd_scene load_steps=9 format=3 uid="uid://ca6orpxdrsbum"]
+
+[ext_resource type="Texture2D" uid="uid://cterpyv0f5asj" path="res://Assets/UI/party_background.png" id="1_jpyj2"]
+[ext_resource type="Script" uid="uid://55vlmp6wuf5g" path="res://Scripts/Game/PokemonPartyScreen.cs" id="1_rvuod"]
+[ext_resource type="PackedScene" uid="uid://b22ocjar8tohh" path="res://Scenes/Game/PokemonSlot.tscn" id="3_dv6bj"]
+[ext_resource type="Texture2D" uid="uid://cjoid2164x21" path="res://Assets/UI/standby_pokemon_background.png" id="6_mhgn5"]
+[ext_resource type="Texture2D" uid="uid://bjgn3lfb18e06" path="res://Assets/UI/exit_background_button.png" id="9_dv6bj"]
+
+[sub_resource type="Animation" id="Animation_mhgn5"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasLayer:offset")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-1280, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_x1mxd"]
+resource_name = "ShowTeam"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasLayer:offset")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(-1920, 0), Vector2(0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_q2ehk"]
+_data = {
+&"RESET": SubResource("Animation_mhgn5"),
+&"ShowTeam": SubResource("Animation_x1mxd")
+}
+
+[node name="PokemonPartyScreen" type="Node2D" node_paths=PackedStringArray("_CancelSprite", "PokemonSlots", "_anim")]
+position = Vector2(-151, -53)
+scale = Vector2(1.02668, 1.02668)
+script = ExtResource("1_rvuod")
+_CancelSprite = NodePath("CanvasLayer/CancelSprite")
+PokemonSlots = [NodePath("CanvasLayer/FirstPokemonSlot"), NodePath("CanvasLayer/SecondPokemonSlot"), NodePath("CanvasLayer/ThirdPokemonSlot"), NodePath("CanvasLayer/FourthPokemonSlot"), NodePath("CanvasLayer/FifthPokemonSlot"), NodePath("CanvasLayer/SixthPokemonSlot")]
+_anim = NodePath("AnimationPlayer")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+offset = Vector2(-1280, 0)
+transform = Transform2D(1, 0, 0, 1, -1280, 0)
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+texture = ExtResource("1_jpyj2")
+
+[node name="FirstPokemonSlot" parent="CanvasLayer" instance=ExtResource("3_dv6bj")]
+position = Vector2(126, 62)
+scale = Vector2(0.675602, 0.650225)
+
+[node name="SecondPokemonSlot" parent="CanvasLayer" instance=ExtResource("3_dv6bj")]
+position = Vector2(1135, -103)
+scale = Vector2(0.593974, 0.593974)
+
+[node name="Background" parent="CanvasLayer/SecondPokemonSlot" index="0"]
+position = Vector2(421, 419.693)
+texture = ExtResource("6_mhgn5")
+
+[node name="PokemonPartySprite" parent="CanvasLayer/SecondPokemonSlot" index="1"]
+position = Vector2(-178, 438)
+scale = Vector2(0.407187, 0.407187)
+
+[node name="PokemonName" parent="CanvasLayer/SecondPokemonSlot" index="2"]
+offset_left = -70.0
+offset_top = 354.0
+offset_right = 440.0
+offset_bottom = 438.0
+horizontal_alignment = 0
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" parent="CanvasLayer/SecondPokemonSlot" index="3"]
+offset_left = 194.0
+offset_top = 450.0
+offset_right = 400.0
+offset_bottom = 510.0
+metadata/_edit_use_anchors_ = true
+
+[node name="HealthLabel" parent="CanvasLayer/SecondPokemonSlot" index="4"]
+offset_left = 692.0
+offset_top = 450.0
+offset_right = 880.0
+offset_bottom = 510.0
+metadata/_edit_use_anchors_ = true
+
+[node name="MaxHealthLabel" parent="CanvasLayer/SecondPokemonSlot" index="5"]
+offset_left = 958.0
+offset_top = 450.0
+offset_right = 1146.0
+offset_bottom = 514.0
+metadata/_edit_use_anchors_ = true
+
+[node name="HealthBar" parent="CanvasLayer/SecondPokemonSlot" index="6"]
+offset_left = 623.0
+offset_top = 392.0
+offset_right = 647.0
+offset_bottom = 396.0
+scale = Vector2(19.1667, 7.625)
+
+[node name="ThirdPokemonSlot" parent="CanvasLayer" instance=ExtResource("3_dv6bj")]
+position = Vector2(1134, 4)
+scale = Vector2(0.593974, 0.593974)
+
+[node name="Background" parent="CanvasLayer/ThirdPokemonSlot" index="0"]
+position = Vector2(422.691, 483.232)
+scale = Vector2(9.58667, 8.14109)
+texture = ExtResource("6_mhgn5")
+
+[node name="PokemonPartySprite" parent="CanvasLayer/ThirdPokemonSlot" index="1"]
+position = Vector2(-176.309, 501.539)
+scale = Vector2(0.407187, 0.407187)
+
+[node name="PokemonName" parent="CanvasLayer/ThirdPokemonSlot" index="2"]
+offset_left = -68.3088
+offset_top = 417.539
+offset_right = 441.691
+offset_bottom = 501.539
+horizontal_alignment = 0
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" parent="CanvasLayer/ThirdPokemonSlot" index="3"]
+offset_left = 195.691
+offset_top = 513.539
+offset_right = 401.691
+offset_bottom = 573.539
+metadata/_edit_use_anchors_ = true
+
+[node name="HealthLabel" parent="CanvasLayer/ThirdPokemonSlot" index="4"]
+offset_left = 693.691
+offset_top = 513.539
+offset_right = 881.691
+offset_bottom = 573.539
+metadata/_edit_use_anchors_ = true
+
+[node name="MaxHealthLabel" parent="CanvasLayer/ThirdPokemonSlot" index="5"]
+offset_left = 959.691
+offset_top = 513.539
+offset_right = 1147.69
+offset_bottom = 577.539
+metadata/_edit_use_anchors_ = true
+
+[node name="HealthBar" parent="CanvasLayer/ThirdPokemonSlot" index="6"]
+offset_left = 626.0
+offset_top = 456.0
+offset_right = 650.0
+offset_bottom = 460.0
+scale = Vector2(19.1667, 7.625)
+
+[node name="FourthPokemonSlot" parent="CanvasLayer" instance=ExtResource("3_dv6bj")]
+position = Vector2(1132, 112)
+scale = Vector2(0.593974, 0.593974)
+
+[node name="Background" parent="CanvasLayer/FourthPokemonSlot" index="0"]
+position = Vector2(426.058, 521.954)
+scale = Vector2(9.58667, 8.14109)
+texture = ExtResource("6_mhgn5")
+
+[node name="PokemonPartySprite" parent="CanvasLayer/FourthPokemonSlot" index="1"]
+position = Vector2(-172.942, 540.261)
+scale = Vector2(0.407187, 0.407187)
+
+[node name="PokemonName" parent="CanvasLayer/FourthPokemonSlot" index="2"]
+offset_left = -64.9417
+offset_top = 456.261
+offset_right = 445.058
+offset_bottom = 540.261
+horizontal_alignment = 0
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" parent="CanvasLayer/FourthPokemonSlot" index="3"]
+offset_left = 199.058
+offset_top = 552.261
+offset_right = 405.058
+offset_bottom = 612.261
+metadata/_edit_use_anchors_ = true
+
+[node name="HealthLabel" parent="CanvasLayer/FourthPokemonSlot" index="4"]
+offset_left = 697.058
+offset_top = 552.261
+offset_right = 885.058
+offset_bottom = 612.261
+metadata/_edit_use_anchors_ = true
+
+[node name="MaxHealthLabel" parent="CanvasLayer/FourthPokemonSlot" index="5"]
+offset_left = 963.058
+offset_top = 552.261
+offset_right = 1151.06
+offset_bottom = 616.261
+metadata/_edit_use_anchors_ = true
+
+[node name="HealthBar" parent="CanvasLayer/FourthPokemonSlot" index="6"]
+offset_left = 628.0
+offset_top = 498.0
+offset_right = 652.0
+offset_bottom = 501.0
+scale = Vector2(19.1667, 7.625)
+
+[node name="FifthPokemonSlot" parent="CanvasLayer" instance=ExtResource("3_dv6bj")]
+position = Vector2(1130, 295.74)
+scale = Vector2(0.593974, 0.593974)
+
+[node name="Background" parent="CanvasLayer/FifthPokemonSlot" index="0"]
+position = Vector2(421, 419.693)
+scale = Vector2(9.58667, 8.14109)
+texture = ExtResource("6_mhgn5")
+
+[node name="PokemonPartySprite" parent="CanvasLayer/FifthPokemonSlot" index="1"]
+position = Vector2(-178, 438)
+scale = Vector2(0.407187, 0.407187)
+
+[node name="PokemonName" parent="CanvasLayer/FifthPokemonSlot" index="2"]
+offset_left = -70.0
+offset_top = 354.0
+offset_right = 440.0
+offset_bottom = 438.0
+horizontal_alignment = 0
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" parent="CanvasLayer/FifthPokemonSlot" index="3"]
+offset_left = 194.0
+offset_top = 450.0
+offset_right = 400.0
+offset_bottom = 510.0
+metadata/_edit_use_anchors_ = true
+
+[node name="HealthLabel" parent="CanvasLayer/FifthPokemonSlot" index="4"]
+offset_left = 692.0
+offset_top = 450.0
+offset_right = 880.0
+offset_bottom = 510.0
+metadata/_edit_use_anchors_ = true
+
+[node name="MaxHealthLabel" parent="CanvasLayer/FifthPokemonSlot" index="5"]
+offset_left = 958.0
+offset_top = 450.0
+offset_right = 1146.0
+offset_bottom = 514.0
+metadata/_edit_use_anchors_ = true
+
+[node name="HealthBar" parent="CanvasLayer/FifthPokemonSlot" index="6"]
+offset_left = 623.0
+offset_top = 396.0
+offset_right = 647.0
+offset_bottom = 399.0
+scale = Vector2(19.1667, 7.625)
+
+[node name="SixthPokemonSlot" parent="CanvasLayer" instance=ExtResource("3_dv6bj")]
+position = Vector2(1134, 427.74)
+scale = Vector2(0.593974, 0.593974)
+
+[node name="Background" parent="CanvasLayer/SixthPokemonSlot" index="0"]
+position = Vector2(421, 419.693)
+scale = Vector2(9.58667, 8.14109)
+texture = ExtResource("6_mhgn5")
+
+[node name="PokemonPartySprite" parent="CanvasLayer/SixthPokemonSlot" index="1"]
+position = Vector2(-178, 438)
+scale = Vector2(0.407187, 0.407187)
+
+[node name="PokemonName" parent="CanvasLayer/SixthPokemonSlot" index="2"]
+offset_left = -70.0
+offset_top = 354.0
+offset_right = 440.0
+offset_bottom = 438.0
+horizontal_alignment = 0
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" parent="CanvasLayer/SixthPokemonSlot" index="3"]
+offset_left = 194.0
+offset_top = 450.0
+offset_right = 400.0
+offset_bottom = 510.0
+metadata/_edit_use_anchors_ = true
+
+[node name="HealthLabel" parent="CanvasLayer/SixthPokemonSlot" index="4"]
+offset_left = 692.0
+offset_top = 450.0
+offset_right = 880.0
+offset_bottom = 510.0
+metadata/_edit_use_anchors_ = true
+
+[node name="MaxHealthLabel" parent="CanvasLayer/SixthPokemonSlot" index="5"]
+offset_left = 958.0
+offset_top = 450.0
+offset_right = 1146.0
+offset_bottom = 514.0
+metadata/_edit_use_anchors_ = true
+
+[node name="HealthBar" parent="CanvasLayer/SixthPokemonSlot" index="6"]
+offset_left = 623.0
+offset_top = 394.0
+offset_right = 647.0
+offset_bottom = 397.0
+scale = Vector2(19.1667, 7.625)
+
+[node name="CancelSprite" type="Sprite2D" parent="CanvasLayer"]
+position = Vector2(1699, 958)
+scale = Vector2(4.5926, 3.98958)
+texture = ExtResource("9_dv6bj")
+hframes = 2
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_q2ehk")
+}
+
+[editable path="CanvasLayer/SecondPokemonSlot"]
+[editable path="CanvasLayer/SecondPokemonSlot/HealthBar"]
+[editable path="CanvasLayer/ThirdPokemonSlot"]
+[editable path="CanvasLayer/ThirdPokemonSlot/HealthBar"]
+[editable path="CanvasLayer/FourthPokemonSlot"]
+[editable path="CanvasLayer/FourthPokemonSlot/HealthBar"]
+[editable path="CanvasLayer/FifthPokemonSlot"]
+[editable path="CanvasLayer/FifthPokemonSlot/HealthBar"]
+[editable path="CanvasLayer/SixthPokemonSlot"]
+[editable path="CanvasLayer/SixthPokemonSlot/HealthBar"]

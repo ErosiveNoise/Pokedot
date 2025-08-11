@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cccujb7km4cjp"]
+
+[ext_resource type="Script" uid="uid://djf22yne38pir" path="res://Scripts/Core/BatchGifExtractor.cs" id="1_s2cyh"]
+
+[node name="BatchGifExtractor" type="Node"]
+script = ExtResource("1_s2cyh")

@@ -1,0 +1,198 @@
+[gd_scene load_steps=20 format=3 uid="uid://cghgncfnifype"]
+
+[ext_resource type="Script" uid="uid://divn616sjix2t" path="res://Scripts/Game/Menu.cs" id="1_0hn06"]
+[ext_resource type="Texture2D" uid="uid://cobxwidm2x47q" path="res://Assets/UI/menuBG.png" id="2_qqljg"]
+[ext_resource type="Texture2D" uid="uid://bfvfw8q81542k" path="res://Assets/UI/PokedexBG1.png" id="3_beoc6"]
+[ext_resource type="Texture2D" uid="uid://ckxqie8btexxl" path="res://Assets/UI/PokedexBG2.png" id="4_xky1q"]
+[ext_resource type="Texture2D" uid="uid://bbqbf6o10fvme" path="res://Assets/UI/teamBG1.png" id="9_2malr"]
+[ext_resource type="Texture2D" uid="uid://ckonycnb6vyj4" path="res://Assets/UI/teamBG2.png" id="10_n7ld4"]
+[ext_resource type="Texture2D" uid="uid://crg0a8y7y8ifi" path="res://Assets/UI/saveBG1.png" id="10_oyy61"]
+[ext_resource type="Texture2D" uid="uid://b7lv6t8fu32bq" path="res://Assets/UI/saveBG2.png" id="11_2malr"]
+[ext_resource type="Texture2D" uid="uid://o10xim84vbj5" path="res://Assets/UI/itemBG1.png" id="11_beoc6"]
+[ext_resource type="Texture2D" uid="uid://b2odn7dx5wgyh" path="res://Assets/UI/itemBG2.png" id="12_xky1q"]
+[ext_resource type="Texture2D" uid="uid://y1vfc7e14f3n" path="res://Assets/UI/userBG1.png" id="13_1y5xq"]
+[ext_resource type="Texture2D" uid="uid://dggx44rqbj0wk" path="res://Assets/UI/userBG2.png" id="14_s2wp2"]
+[ext_resource type="Texture2D" uid="uid://c1wr7vm0j6e4v" path="res://Assets/UI/settingBG1.png" id="15_wv1q2"]
+[ext_resource type="Texture2D" uid="uid://c1n4727j6en3v" path="res://Assets/UI/settingBG2.png" id="16_mrnux"]
+[ext_resource type="Texture2D" uid="uid://uwhof0xogjgv" path="res://Assets/UI/exitBG1.png" id="19_xva7q"]
+[ext_resource type="Texture2D" uid="uid://bqrudsdvvwdnh" path="res://Assets/UI/exitBG2.png" id="20_88f7v"]
+
+[sub_resource type="Animation" id="Animation_0tucb"]
+resource_name = "ShiftMenu"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Control:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(1920, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_mkbu3"]
+resource_name = "ShowMenu"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Control:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(-1920, 0), Vector2(0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_hgw5q"]
+_data = {
+&"ShiftMenu": SubResource("Animation_0tucb"),
+&"ShowMenu": SubResource("Animation_mkbu3")
+}
+
+[node name="Menu" type="CanvasLayer" node_paths=PackedStringArray("_anim", "_control", "menuButtons")]
+script = ExtResource("1_0hn06")
+_anim = NodePath("AnimationPlayer")
+_control = NodePath("Control")
+menuButtons = [NodePath("Control/PokedexButton"), NodePath("Control/TeamButton"), NodePath("Control/ItemButton"), NodePath("Control/UserButton"), NodePath("Control/SettingsButton"), NodePath("Control/SaveButton"), NodePath("Control/ExitButton")]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -1920.0
+offset_right = -1920.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_qqljg")
+expand_mode = 2
+
+[node name="PokedexButton" type="TextureButton" parent="Control"]
+layout_mode = 0
+offset_left = 368.0
+offset_top = 202.0
+offset_right = 1233.0
+offset_bottom = 1068.0
+scale = Vector2(0.23568, 0.23568)
+focus_neighbor_left = NodePath("../ExitButton")
+focus_neighbor_right = NodePath("../TeamButton")
+focus_next = NodePath("../TeamButton")
+focus_previous = NodePath("../ExitButton")
+texture_normal = ExtResource("3_beoc6")
+texture_focused = ExtResource("4_xky1q")
+
+[node name="TeamButton" type="TextureButton" parent="Control"]
+layout_mode = 0
+offset_left = 661.0
+offset_top = 200.0
+offset_right = 1526.0
+offset_bottom = 1066.0
+scale = Vector2(0.23568, 0.23568)
+focus_neighbor_left = NodePath("../PokedexButton")
+focus_neighbor_top = NodePath("../SettingsButton")
+focus_neighbor_right = NodePath("../ItemButton")
+focus_neighbor_bottom = NodePath("../SettingsButton")
+focus_next = NodePath("../ItemButton")
+focus_previous = NodePath("../PokedexButton")
+texture_normal = ExtResource("9_2malr")
+texture_focused = ExtResource("10_n7ld4")
+
+[node name="ItemButton" type="TextureButton" parent="Control"]
+layout_mode = 0
+offset_left = 971.0
+offset_top = 197.0
+offset_right = 1836.0
+offset_bottom = 1063.0
+scale = Vector2(0.23568, 0.23568)
+focus_neighbor_left = NodePath("../TeamButton")
+focus_neighbor_top = NodePath("../SaveButton")
+focus_neighbor_right = NodePath("../UserButton")
+focus_neighbor_bottom = NodePath("../SaveButton")
+focus_next = NodePath("../UserButton")
+focus_previous = NodePath("../TeamButton")
+texture_normal = ExtResource("11_beoc6")
+texture_focused = ExtResource("12_xky1q")
+
+[node name="UserButton" type="TextureButton" parent="Control"]
+layout_mode = 0
+offset_left = 1311.0
+offset_top = 205.0
+offset_right = 2176.0
+offset_bottom = 1071.0
+scale = Vector2(0.23568, 0.23568)
+focus_neighbor_left = NodePath("../ItemButton")
+focus_neighbor_top = NodePath("../ExitButton")
+focus_neighbor_right = NodePath("../SettingsButton")
+focus_neighbor_bottom = NodePath("../ExitButton")
+focus_next = NodePath("../SettingsButton")
+focus_previous = NodePath("../ItemButton")
+texture_normal = ExtResource("13_1y5xq")
+texture_focused = ExtResource("14_s2wp2")
+
+[node name="SettingsButton" type="TextureButton" parent="Control"]
+layout_mode = 0
+offset_left = 615.0
+offset_top = 539.0
+offset_right = 1480.0
+offset_bottom = 1407.0
+scale = Vector2(0.23568, 0.23568)
+focus_neighbor_left = NodePath("../UserButton")
+focus_neighbor_top = NodePath("../TeamButton")
+focus_neighbor_right = NodePath("../SaveButton")
+focus_neighbor_bottom = NodePath("../TeamButton")
+focus_next = NodePath("../SaveButton")
+focus_previous = NodePath("../UserButton")
+texture_normal = ExtResource("15_wv1q2")
+texture_focused = ExtResource("16_mrnux")
+
+[node name="SaveButton" type="TextureButton" parent="Control"]
+layout_mode = 0
+offset_left = 916.0
+offset_top = 548.0
+offset_right = 1781.0
+offset_bottom = 1414.0
+scale = Vector2(0.23568, 0.23568)
+focus_neighbor_left = NodePath("../SettingsButton")
+focus_neighbor_top = NodePath("../ItemButton")
+focus_neighbor_right = NodePath("../ExitButton")
+focus_neighbor_bottom = NodePath("../ItemButton")
+focus_next = NodePath("../ExitButton")
+focus_previous = NodePath("../SettingsButton")
+texture_normal = ExtResource("10_oyy61")
+texture_hover = ExtResource("11_2malr")
+texture_focused = ExtResource("11_2malr")
+
+[node name="ExitButton" type="TextureButton" parent="Control"]
+layout_mode = 0
+offset_left = 1228.0
+offset_top = 546.0
+offset_right = 2093.0
+offset_bottom = 1412.0
+scale = Vector2(0.23568, 0.23568)
+focus_neighbor_left = NodePath("../SaveButton")
+focus_neighbor_top = NodePath("../UserButton")
+focus_neighbor_right = NodePath("../PokedexButton")
+focus_neighbor_bottom = NodePath("../UserButton")
+focus_next = NodePath("../PokedexButton")
+focus_previous = NodePath("../SaveButton")
+texture_normal = ExtResource("19_xva7q")
+texture_focused = ExtResource("20_88f7v")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_hgw5q")
+}

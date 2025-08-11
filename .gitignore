@@ -1,0 +1,50 @@
+# ---------------------
+# Godot specific
+# ---------------------
+.import/                  # File di importazione generati automaticamente
+.export/                  # Cartella creata in alcune versioni di Godot
+export.cfg                # Configurazioni di esportazione
+export_presets.cfg        # Preset di esportazione
+Assets/
+PolyBlocks/
+
+# Build/Export files
+*.exe
+*.apk
+*.zip
+*.tar.gz
+*.pck
+*.wasm
+*.html
+*.import
+
+# Se non vuoi includere i build giocabili nel repo
+# commenta queste righe se invece vuoi tenerli
+build/
+dist/
+releases/
+
+# ---------------------
+# Sistema e editor
+# ---------------------
+.DS_Store                 # macOS
+Thumbs.db                 # Windows
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Backup e temporanei
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Visual Studio / VSCode / JetBrains
+.vscode/
+.idea/
+*.user
+*.sln
+*.csproj
+*.mono/
+.mono/
+

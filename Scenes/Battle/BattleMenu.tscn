@@ -1,0 +1,138 @@
+[gd_scene load_steps=14 format=3 uid="uid://cvjo5peetwqwh"]
+
+[ext_resource type="Script" uid="uid://nbx8lss2j4qd" path="res://Scripts/Game/Battle/BattleMenu.cs" id="1_xvjgs"]
+[ext_resource type="Texture2D" uid="uid://c0ey6yam51a5r" path="res://Assets/Battle/battleMeuSmallBG.png" id="2_cn6gm"]
+[ext_resource type="PackedScene" uid="uid://bp3hpr886hpsg" path="res://Scenes/Battle/SelectMove.tscn" id="2_lp1um"]
+[ext_resource type="Texture2D" uid="uid://c1siip8qwfdr7" path="res://Assets/Battle/selPokemonBG.png" id="4_cokip"]
+[ext_resource type="Texture2D" uid="uid://5tyqefaobyqf" path="res://Assets/UI/teamMenuBG.png" id="5_cn6gm"]
+[ext_resource type="Texture2D" uid="uid://dlmujwlkx61j3" path="res://Assets/Battle/selItemBG.png" id="6_1m8da"]
+[ext_resource type="Texture2D" uid="uid://tm8hu48c58r1" path="res://Assets/UI/BagMenuBG.png" id="7_cokip"]
+[ext_resource type="Texture2D" uid="uid://dsl7weqnjexhs" path="res://Assets/UI/FugaMenuBG.png" id="8_4s4gl"]
+[ext_resource type="Texture2D" uid="uid://cv1xbai55xapm" path="res://Assets/Battle/selRunBG.png" id="8_24cqg"]
+[ext_resource type="PackedScene" uid="uid://df7uhtc1ypgbg" path="res://Scenes/Battle/AttackMove.tscn" id="10_cn6gm"]
+[ext_resource type="Texture2D" uid="uid://d0plqdcbj2f1r" path="res://Assets/UI/backBG1.png" id="11_4s4gl"]
+[ext_resource type="FontFile" uid="uid://bou7rocohpd7j" path="res://Resources/pkmnfl.ttf" id="12_4s4gl"]
+[ext_resource type="Texture2D" uid="uid://b15k37wjprvsx" path="res://Assets/UI/backBG2.png" id="12_cn6gm"]
+
+[node name="BattleMenu" type="Control" node_paths=PackedStringArray("MainMenu", "AttackMenu", "MenuButtons", "AttackButtons")]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_xvjgs")
+MainMenu = NodePath("MainMenu")
+AttackMenu = NodePath("AttackMenu")
+MenuButtons = [NodePath("MainMenu/AttackButton"), NodePath("MainMenu/TeamButton"), NodePath("MainMenu/BagButton"), NodePath("MainMenu/RunButton")]
+AttackButtons = [NodePath("AttackMenu/Attack1"), NodePath("AttackMenu/Attack2"), NodePath("AttackMenu/Attack3"), NodePath("AttackMenu/Attack4"), NodePath("AttackMenu/Run")]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 730.0
+offset_bottom = 255.0
+texture = ExtResource("2_cn6gm")
+expand_mode = 1
+
+[node name="MainMenu" type="GridContainer" parent="."]
+layout_mode = 0
+offset_left = 188.0
+offset_top = 26.0
+offset_right = 1922.0
+offset_bottom = 1762.0
+scale = Vector2(2, 2)
+theme_override_constants/v_separation = 6
+columns = 2
+
+[node name="AttackButton" parent="MainMenu" instance=ExtResource("2_lp1um")]
+layout_mode = 2
+
+[node name="TeamButton" parent="MainMenu" instance=ExtResource("2_lp1um")]
+layout_mode = 2
+texture_normal = ExtResource("4_cokip")
+texture_focused = ExtResource("4_cokip")
+
+[node name="Nome" parent="MainMenu/TeamButton" index="0"]
+text = "Team"
+
+[node name="Sprite2D" parent="MainMenu/TeamButton" index="1"]
+texture = ExtResource("5_cn6gm")
+
+[node name="BagButton" parent="MainMenu" instance=ExtResource("2_lp1um")]
+layout_mode = 2
+texture_normal = ExtResource("6_1m8da")
+texture_focused = ExtResource("6_1m8da")
+
+[node name="Nome" parent="MainMenu/BagButton" index="0"]
+text = "Zaino"
+
+[node name="Sprite2D" parent="MainMenu/BagButton" index="1"]
+texture = ExtResource("7_cokip")
+
+[node name="RunButton" parent="MainMenu" instance=ExtResource("2_lp1um")]
+layout_mode = 2
+texture_normal = ExtResource("8_24cqg")
+texture_focused = ExtResource("8_24cqg")
+
+[node name="Nome" parent="MainMenu/RunButton" index="0"]
+text = "Fuga"
+
+[node name="Sprite2D" parent="MainMenu/RunButton" index="1"]
+texture = ExtResource("8_4s4gl")
+
+[node name="AttackMenu" type="GridContainer" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 81.0
+offset_top = 27.0
+offset_right = 2249.0
+offset_bottom = 1156.0
+scale = Vector2(2, 2)
+columns = 3
+
+[node name="Empty" type="TextureButton" parent="AttackMenu"]
+layout_mode = 2
+focus_mode = 0
+disabled = true
+stretch_mode = 5
+
+[node name="Nome" type="Label" parent="AttackMenu/Empty"]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 3.0
+offset_right = 523.0
+offset_bottom = 127.0
+scale = Vector2(0.188101, 0.174475)
+theme_override_colors/font_color = Color(0.509804, 0.509804, 0.462745, 1)
+theme_override_fonts/font = ExtResource("12_4s4gl")
+theme_override_font_sizes/font_size = 90
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Attack1" parent="AttackMenu" instance=ExtResource("10_cn6gm")]
+layout_mode = 2
+
+[node name="Attack2" parent="AttackMenu" instance=ExtResource("10_cn6gm")]
+layout_mode = 2
+focus_neighbor_right = NodePath("../Attack3")
+focus_next = NodePath("../Attack3")
+
+[node name="Run" type="TextureButton" parent="AttackMenu"]
+layout_mode = 2
+texture_normal = ExtResource("11_4s4gl")
+texture_focused = ExtResource("12_cn6gm")
+stretch_mode = 5
+
+[node name="Nome" type="Label" parent="AttackMenu/Run"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Attack3" parent="AttackMenu" instance=ExtResource("10_cn6gm")]
+layout_mode = 2
+
+[node name="Attack4" parent="AttackMenu" instance=ExtResource("10_cn6gm")]
+layout_mode = 2
+focus_neighbor_right = NodePath("../Attack1")
+focus_next = NodePath("../Attack1")
+
+[editable path="MainMenu/AttackButton"]
+[editable path="MainMenu/TeamButton"]
+[editable path="MainMenu/BagButton"]
+[editable path="MainMenu/RunButton"]

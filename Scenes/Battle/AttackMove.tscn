@@ -1,0 +1,46 @@
+[gd_scene load_steps=4 format=3 uid="uid://df7uhtc1ypgbg"]
+
+[ext_resource type="Texture2D" uid="uid://be3sowksrs8u0" path="res://Assets/Battle/attackBG2.png" id="1_xghaw"]
+[ext_resource type="Texture2D" uid="uid://lqbjux4fu3sa" path="res://Assets/Battle/attackBG1.png" id="2_ioc3q"]
+[ext_resource type="FontFile" uid="uid://chrgltkwiqw4w" path="res://Resources/pokemon_pixel_font.ttf" id="3_xghaw"]
+
+[node name="Attack" type="TextureButton"]
+texture_normal = ExtResource("1_xghaw")
+texture_focused = ExtResource("2_ioc3q")
+stretch_mode = 5
+
+[node name="Nome" type="Label" parent="."]
+layout_mode = 0
+offset_left = 11.0
+offset_top = 4.0
+offset_right = 527.0
+offset_bottom = 105.0
+scale = Vector2(0.188101, 0.174475)
+theme_override_colors/font_color = Color(0.51, 0.51, 0.463, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 6
+theme_override_constants/shadow_offset_y = 3
+theme_override_constants/outline_size = 2
+theme_override_fonts/font = ExtResource("3_xghaw")
+theme_override_font_sizes/font_size = 90
+text = "attacco"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="PP" type="Label" parent="."]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 29.0
+offset_right = 186.0
+offset_bottom = 92.0
+scale = Vector2(0.188101, 0.174475)
+theme_override_colors/font_color = Color(0.51, 0.51, 0.463, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+theme_override_fonts/font = ExtResource("3_xghaw")
+theme_override_font_sizes/font_size = 70
+text = "30/30"
+horizontal_alignment = 1
+vertical_alignment = 1

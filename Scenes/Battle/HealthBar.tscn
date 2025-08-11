@@ -1,0 +1,67 @@
+[gd_scene load_steps=8 format=3 uid="uid://dtiwkph5a66do"]
+
+[ext_resource type="Script" uid="uid://bsns8daoropo7" path="res://Scripts/Game/Battle/HealthBar.cs" id="1_dg6gl"]
+[ext_resource type="FontFile" uid="uid://chrgltkwiqw4w" path="res://Resources/pokemon_pixel_font.ttf" id="2_yok2w"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_n3irk"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j6yhb"]
+bg_color = Color(0.263535, 0.686789, 0.554214, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yok2w"]
+draw_center = false
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0v776"]
+bg_color = Color(0.947199, 0.947199, 0.947199, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_yok2w"]
+font = ExtResource("2_yok2w")
+outline_size = 3
+outline_color = Color(0, 0, 0, 1)
+shadow_color = Color(0, 0, 0, 1)
+
+[node name="HealthBar" type="ProgressBar" node_paths=PackedStringArray("_timer", "_damageBar", "_hpLabel")]
+z_index = 1
+offset_right = 240.0
+offset_bottom = 20.0
+theme_override_styles/background = SubResource("StyleBoxEmpty_n3irk")
+theme_override_styles/fill = SubResource("StyleBoxFlat_j6yhb")
+show_percentage = false
+script = ExtResource("1_dg6gl")
+_timer = NodePath("Timer")
+_damageBar = NodePath("DamageBar")
+_hpLabel = NodePath("HPLabel")
+
+[node name="DamageBar" type="ProgressBar" parent="."]
+z_index = -1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/background = SubResource("StyleBoxFlat_yok2w")
+theme_override_styles/fill = SubResource("StyleBoxFlat_0v776")
+show_percentage = false
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.4
+one_shot = true
+
+[node name="HPLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 9
+anchor_bottom = 1.0
+offset_left = 6.0
+offset_right = 62.0
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_yok2w")
+text = "100/100"
+label_settings = SubResource("LabelSettings_yok2w")
+vertical_alignment = 1
+
+[connection signal="timeout" from="Timer" to="." method="OnTimerTimeout"]

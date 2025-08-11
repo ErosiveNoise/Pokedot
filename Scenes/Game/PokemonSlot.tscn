@@ -1,0 +1,77 @@
+[gd_scene load_steps=7 format=3 uid="uid://b22ocjar8tohh"]
+
+[ext_resource type="Texture2D" uid="uid://c7rqhibyi3uaw" path="res://Assets/UI/main_pokemon_background.png" id="1_3q2vn"]
+[ext_resource type="Script" uid="uid://c2yc2tnkm3vgt" path="res://Scripts/Game/PokemonSlot.cs" id="1_7h85x"]
+[ext_resource type="LabelSettings" uid="uid://d05gx3gst2tuu" path="res://Resources/PokemonName.tres" id="3_t5ony"]
+[ext_resource type="LabelSettings" uid="uid://ocd24lkgyx01" path="res://Resources/PokemonHealth.tres" id="4_3jlxi"]
+[ext_resource type="PackedScene" uid="uid://dtiwkph5a66do" path="res://Scenes/Battle/HealthBar.tscn" id="5_3q2vn"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_m2tom"]
+load_path = "res://.godot/imported/frame_00_delay_003s.png-3b9247531ba5ed4cd6c6f448904e5ec9.ctex"
+
+[node name="PokemonSlot" type="Node2D" node_paths=PackedStringArray("Background", "PokemonSprite", "PokemonName", "Level", "HealthLabel", "MaxHealthLabel", "HealthBar")]
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1_7h85x")
+Background = NodePath("Background")
+PokemonSprite = NodePath("PokemonPartySprite")
+PokemonName = NodePath("PokemonName")
+Level = NodePath("Level")
+HealthLabel = NodePath("HealthLabel")
+MaxHealthLabel = NodePath("MaxHealthLabel")
+HealthBar = NodePath("HealthBar")
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(423.134, 404.605)
+scale = Vector2(9.56511, 9.5651)
+texture = ExtResource("1_3q2vn")
+hframes = 2
+
+[node name="PokemonPartySprite" type="Sprite2D" parent="."]
+position = Vector2(154.978, 331.211)
+scale = Vector2(0.574375, 0.574375)
+texture = SubResource("CompressedTexture2D_m2tom")
+
+[node name="PokemonName" type="Label" parent="."]
+offset_left = 294.0
+offset_top = 276.0
+offset_right = 770.0
+offset_bottom = 360.0
+text = "ABRA"
+label_settings = ExtResource("3_t5ony")
+horizontal_alignment = 2
+
+[node name="Level" type="Label" parent="."]
+offset_left = 482.0
+offset_top = 430.0
+offset_right = 688.0
+offset_bottom = 490.0
+text = "4"
+label_settings = ExtResource("4_3jlxi")
+
+[node name="HealthLabel" type="Label" parent="."]
+offset_left = 384.0
+offset_top = 582.0
+offset_right = 572.0
+offset_bottom = 662.0
+text = "23"
+label_settings = ExtResource("4_3jlxi")
+horizontal_alignment = 2
+
+[node name="MaxHealthLabel" type="Label" parent="."]
+offset_left = 648.0
+offset_top = 582.0
+offset_right = 836.0
+offset_bottom = 646.0
+text = "23"
+label_settings = ExtResource("4_3jlxi")
+
+[node name="HealthBar" parent="." instance=ExtResource("5_3q2vn")]
+offset_left = 308.0
+offset_top = 524.0
+offset_right = 768.0
+offset_bottom = 554.0
+
+[node name="HPLabel" parent="HealthBar" index="2"]
+visible = false
+
+[editable path="HealthBar"]

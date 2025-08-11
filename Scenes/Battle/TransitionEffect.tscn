@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://xxybouh5g43g"]
+
+[ext_resource type="Script" uid="uid://dsldnliudiyby" path="res://Scripts/Game/Battle/TransitionEffect.cs" id="1_avcux"]
+[ext_resource type="Shader" uid="uid://b3thu4bt3ctkj" path="res://Assets/Battle/TransitionEffect.gdshader" id="2_gnjbg"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_beriq"]
+shader = ExtResource("2_gnjbg")
+
+[node name="TransitionEffect" type="CanvasLayer"]
+script = ExtResource("1_avcux")
+
+[node name="TransitionRect" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_beriq")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2

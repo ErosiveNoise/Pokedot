@@ -1,0 +1,6260 @@
+{
+  "1": {
+    "Name": "Bulbasaur",
+    "Hp": 45,
+    "CurrentHp": 45,
+    "Level": 6,
+    "Exp": 53,
+    "Type": "Erba/Veleno",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "2": {
+    "Name": "Ivysaur",
+    "Hp": 60,
+    "CurrentHp": 60,
+    "Level": 7,
+    "Exp": 56,
+    "Type": "Erba/Veleno",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "3": {
+    "Name": "Venusaur",
+    "Hp": 80,
+    "CurrentHp": 80,
+    "Level": 8,
+    "Exp": 59,
+    "Type": "Erba/Veleno",
+    "Attacks": [
+      {
+        "Name": "Frustata",
+        "Power": 45,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Erba"
+      },
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "4": {
+    "Name": "Charmander",
+    "Hp": 39,
+    "CurrentHp": 39,
+    "Level": 9,
+    "Exp": 62,
+    "Type": "Fuoco",
+    "Attacks": [
+      {
+        "Name": "Graffio",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Braciere",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Fuoco"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "5": {
+    "Name": "Charmeleon",
+    "Hp": 58,
+    "CurrentHp": 58,
+    "Level": 10,
+    "Exp": 65,
+    "Type": "Fuoco",
+    "Attacks": [
+      {
+        "Name": "Graffio",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Braciere",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Fuoco"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "6": {
+    "Name": "Charizard",
+    "Hp": 78,
+    "CurrentHp": 78,
+    "Level": 11,
+    "Exp": 68,
+    "Type": "Fuoco/Volante",
+    "Attacks": [
+      {
+        "Name": "Graffio",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Braciere",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Fuoco"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "7": {
+    "Name": "Squirtle",
+    "Hp": 44,
+    "CurrentHp": 44,
+    "Level": 12,
+    "Exp": 71,
+    "Type": "Acqua",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Bolla",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Acqua"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "8": {
+    "Name": "Wartortle",
+    "Hp": 59,
+    "CurrentHp": 59,
+    "Level": 13,
+    "Exp": 74,
+    "Type": "Acqua",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Bolla",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Acqua"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "9": {
+    "Name": "Blastoise",
+    "Hp": 79,
+    "CurrentHp": 79,
+    "Level": 14,
+    "Exp": 77,
+    "Type": "Acqua",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Pistolacqua",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Acqua"
+      },
+      {
+        "Name": "Bolla",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Acqua"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "10": {
+    "Name": "Caterpie",
+    "Hp": 45,
+    "CurrentHp": 45,
+    "Level": 5,
+    "Exp": 80,
+    "Type": "Coleottero",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "11": {
+    "Name": "Metapod",
+    "Hp": 50,
+    "CurrentHp": 50,
+    "Level": 6,
+    "Exp": 83,
+    "Type": "Coleottero",
+    "Attacks": [
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "12": {
+    "Name": "Butterfree",
+    "Hp": 60,
+    "CurrentHp": 60,
+    "Level": 7,
+    "Exp": 86,
+    "Type": "Coleottero/Volante",
+    "Attacks": [
+      {
+        "Name": "Confusione",
+        "Power": 50,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Psico"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "13": {
+    "Name": "Weedle",
+    "Hp": 40,
+    "CurrentHp": 40,
+    "Level": 8,
+    "Exp": 89,
+    "Type": "Coleottero/Veleno",
+    "Attacks": [
+      {
+        "Name": "Velenospina",
+        "Power": 15,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Veleno"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "14": {
+    "Name": "Kakuna",
+    "Hp": 45,
+    "CurrentHp": 45,
+    "Level": 9,
+    "Exp": 92,
+    "Type": "Coleottero/Veleno",
+    "Attacks": [
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "15": {
+    "Name": "Beedrill",
+    "Hp": 65,
+    "CurrentHp": 65,
+    "Level": 10,
+    "Exp": 95,
+    "Type": "Coleottero/Veleno",
+    "Attacks": [
+      {
+        "Name": "Furia",
+        "Power": 15,
+        "Accuracy": 85,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "16": {
+    "Name": "Pidgey",
+    "Hp": 40,
+    "CurrentHp": 40,
+    "Level": 11,
+    "Exp": 98,
+    "Type": "Normale/Volante",
+    "Attacks": [
+      {
+        "Name": "Raffica",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Volante"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "17": {
+    "Name": "Pidgeotto",
+    "Hp": 63,
+    "CurrentHp": 63,
+    "Level": 12,
+    "Exp": 101,
+    "Type": "Normale/Volante",
+    "Attacks": [
+      {
+        "Name": "Raffica",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Volante"
+      },
+      {
+        "Name": "Attacco Rapido",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "18": {
+    "Name": "Pidgeot",
+    "Hp": 83,
+    "CurrentHp": 83,
+    "Level": 13,
+    "Exp": 104,
+    "Type": "Normale/Volante",
+    "Attacks": [
+      {
+        "Name": "Raffica",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Volante"
+      },
+      {
+        "Name": "Attacco Rapido",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "19": {
+    "Name": "Rattata",
+    "Hp": 30,
+    "CurrentHp": 30,
+    "Level": 14,
+    "Exp": 107,
+    "Type": "Normale",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Attacco Rapido",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Iperzanna",
+        "Power": 80,
+        "Accuracy": 90,
+        "PP": 15,
+        "CurrentPP": 15,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "20": {
+    "Name": "Raticate",
+    "Hp": 55,
+    "CurrentHp": 55,
+    "Level": 5,
+    "Exp": 110,
+    "Type": "Normale",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Attacco Rapido",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "21": {
+    "Name": "Spearow",
+    "Hp": 40,
+    "CurrentHp": 40,
+    "Level": 6,
+    "Exp": 113,
+    "Type": "Normale/Volante",
+    "Attacks": [
+      {
+        "Name": "Beccata",
+        "Power": 35,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Volante"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "22": {
+    "Name": "Fearow",
+    "Hp": 65,
+    "CurrentHp": 65,
+    "Level": 7,
+    "Exp": 116,
+    "Type": "Normale/Volante",
+    "Attacks": [
+      {
+        "Name": "Beccata",
+        "Power": 35,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Volante"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "23": {
+    "Name": "Ekans",
+    "Hp": 35,
+    "CurrentHp": 35,
+    "Level": 8,
+    "Exp": 119,
+    "Type": "Veleno",
+    "Attacks": [
+      {
+        "Name": "Avvolgibotta",
+        "Power": 15,
+        "Accuracy": 90,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "24": {
+    "Name": "Arbok",
+    "Hp": 60,
+    "CurrentHp": 60,
+    "Level": 9,
+    "Exp": 122,
+    "Type": "Veleno",
+    "Attacks": [
+      {
+        "Name": "Avvolgibotta",
+        "Power": 15,
+        "Accuracy": 90,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Velenospina",
+        "Power": 15,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Veleno"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "25": {
+    "Name": "Pikachu",
+    "Hp": 35,
+    "CurrentHp": 35,
+    "Level": 10,
+    "Exp": 125,
+    "Type": "Elettro",
+    "Attacks": [
+      {
+        "Name": "Tuonoshock",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Elettro"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "26": {
+    "Name": "Raichu",
+    "Hp": 60,
+    "CurrentHp": 60,
+    "Level": 11,
+    "Exp": 128,
+    "Type": "Elettro",
+    "Attacks": [
+      {
+        "Name": "Tuonoshock",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Elettro"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "27": {
+    "Name": "Sandshrew",
+    "Hp": 50,
+    "CurrentHp": 50,
+    "Level": 12,
+    "Exp": 131,
+    "Type": "Terra",
+    "Attacks": [
+      {
+        "Name": "Graffio",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "28": {
+    "Name": "Sandslash",
+    "Hp": 75,
+    "CurrentHp": 75,
+    "Level": 13,
+    "Exp": 134,
+    "Type": "Terra",
+    "Attacks": [
+      {
+        "Name": "Graffio",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "29": {
+    "Name": "Nidoran♀",
+    "Hp": 55,
+    "CurrentHp": 55,
+    "Level": 14,
+    "Exp": 137,
+    "Type": "Veleno",
+    "Attacks": [
+      {
+        "Name": "Graffio",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Velenospina",
+        "Power": 15,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Veleno"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "30": {
+    "Name": "Nidorina",
+    "Hp": 70,
+    "CurrentHp": 70,
+    "Level": 5,
+    "Exp": 140,
+    "Type": "Veleno",
+    "Attacks": [
+      {
+        "Name": "Graffio",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "31": {
+    "Name": "Nidoqueen",
+    "Hp": 90,
+    "CurrentHp": 90,
+    "Level": 6,
+    "Exp": 143,
+    "Type": "Veleno/Terra",
+    "Attacks": [
+      {
+        "Name": "Graffio",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Corposcontro",
+        "Power": 85,
+        "Accuracy": 100,
+        "PP": 15,
+        "CurrentPP": 15,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "32": {
+    "Name": "Nidoran♂",
+    "Hp": 46,
+    "CurrentHp": 46,
+    "Level": 7,
+    "Exp": 146,
+    "Type": "Veleno",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "33": {
+    "Name": "Nidorino",
+    "Hp": 61,
+    "CurrentHp": 61,
+    "Level": 8,
+    "Exp": 149,
+    "Type": "Veleno",
+    "Attacks": [
+      {
+        "Name": "Incornata",
+        "Power": 65,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "34": {
+    "Name": "Nidoking",
+    "Hp": 81,
+    "CurrentHp": 81,
+    "Level": 9,
+    "Exp": 152,
+    "Type": "Veleno/Terra",
+    "Attacks": [
+      {
+        "Name": "Incornata",
+        "Power": 65,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Colpo",
+        "Power": 120,
+        "Accuracy": 100,
+        "PP": 10,
+        "CurrentPP": 10,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Velenospina",
+        "Power": 15,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Veleno"
+      }
+    ]
+  },
+  "35": {
+    "Name": "Clefairy",
+    "Hp": 70,
+    "CurrentHp": 70,
+    "Level": 10,
+    "Exp": 155,
+    "Type": "Folletto",
+    "Attacks": [
+      {
+        "Name": "Botta",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "36": {
+    "Name": "Clefable",
+    "Hp": 95,
+    "CurrentHp": 95,
+    "Level": 11,
+    "Exp": 158,
+    "Type": "Folletto",
+    "Attacks": [
+      {
+        "Name": "Doppiasberla",
+        "Power": 15,
+        "Accuracy": 85,
+        "PP": 10,
+        "CurrentPP": 10,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "37": {
+    "Name": "Vulpix",
+    "Hp": 38,
+    "CurrentHp": 38,
+    "Level": 12,
+    "Exp": 161,
+    "Type": "Fuoco",
+    "Attacks": [
+      {
+        "Name": "Braciere",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Fuoco"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "38": {
+    "Name": "Ninetales",
+    "Hp": 73,
+    "CurrentHp": 73,
+    "Level": 13,
+    "Exp": 164,
+    "Type": "Fuoco",
+    "Attacks": [
+      {
+        "Name": "Braciere",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Fuoco"
+      },
+      {
+        "Name": "Attacco Rapido",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "39": {
+    "Name": "Jigglypuff",
+    "Hp": 115,
+    "CurrentHp": 115,
+    "Level": 14,
+    "Exp": 167,
+    "Type": "Normale/Folletto",
+    "Attacks": [
+      {
+        "Name": "Botta",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "40": {
+    "Name": "Wigglytuff",
+    "Hp": 140,
+    "CurrentHp": 140,
+    "Level": 5,
+    "Exp": 170,
+    "Type": "Normale/Folletto",
+    "Attacks": [
+      {
+        "Name": "Doppiasberla",
+        "Power": 15,
+        "Accuracy": 85,
+        "PP": 10,
+        "CurrentPP": 10,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "41": {
+    "Name": "Zubat",
+    "Hp": 40,
+    "CurrentHp": 40,
+    "Level": 6,
+    "Exp": 173,
+    "Type": "Veleno/Volante",
+    "Attacks": [
+      {
+        "Name": "Sanguisuga",
+        "Power": 80,
+        "Accuracy": 100,
+        "PP": 10,
+        "CurrentPP": 10,
+        "Type": "Coleottero"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "42": {
+    "Name": "Golbat",
+    "Hp": 75,
+    "CurrentHp": 75,
+    "Level": 7,
+    "Exp": 176,
+    "Type": "Veleno/Volante",
+    "Attacks": [
+      {
+        "Name": "Morso",
+        "Power": 60,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Buio"
+      },
+      {
+        "Name": "Sanguisuga",
+        "Power": 80,
+        "Accuracy": 100,
+        "PP": 10,
+        "CurrentPP": 10,
+        "Type": "Coleottero"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "43": {
+    "Name": "Oddish",
+    "Hp": 45,
+    "CurrentHp": 45,
+    "Level": 8,
+    "Exp": 179,
+    "Type": "Erba/Veleno",
+    "Attacks": [
+      {
+        "Name": "Assorbimento",
+        "Power": 20,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Erba"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "44": {
+    "Name": "Gloom",
+    "Hp": 60,
+    "CurrentHp": 60,
+    "Level": 9,
+    "Exp": 182,
+    "Type": "Erba/Veleno",
+    "Attacks": [
+      {
+        "Name": "Assorbimento",
+        "Power": 20,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Erba"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "45": {
+    "Name": "Vileplume",
+    "Hp": 75,
+    "CurrentHp": 75,
+    "Level": 10,
+    "Exp": 185,
+    "Type": "Erba/Veleno",
+    "Attacks": [
+      {
+        "Name": "Acido",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Veleno"
+      },
+      {
+        "Name": "Petalodanza",
+        "Power": 120,
+        "Accuracy": 100,
+        "PP": 10,
+        "CurrentPP": 10,
+        "Type": "Erba"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "46": {
+    "Name": "Paras",
+    "Hp": 35,
+    "CurrentHp": 35,
+    "Level": 11,
+    "Exp": 188,
+    "Type": "Coleottero/Erba",
+    "Attacks": [
+      {
+        "Name": "Graffio",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "47": {
+    "Name": "Parasect",
+    "Hp": 60,
+    "CurrentHp": 60,
+    "Level": 12,
+    "Exp": 191,
+    "Type": "Coleottero/Erba",
+    "Attacks": [
+      {
+        "Name": "Graffio",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Sanguisuga",
+        "Power": 80,
+        "Accuracy": 100,
+        "PP": 10,
+        "CurrentPP": 10,
+        "Type": "Coleottero"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "48": {
+    "Name": "Venonat",
+    "Hp": 60,
+    "CurrentHp": 60,
+    "Level": 13,
+    "Exp": 194,
+    "Type": "Coleottero/Veleno",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "49": {
+    "Name": "Venomoth",
+    "Hp": 70,
+    "CurrentHp": 70,
+    "Level": 14,
+    "Exp": 197,
+    "Type": "Coleottero/Veleno",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Sanguisuga",
+        "Power": 80,
+        "Accuracy": 100,
+        "PP": 10,
+        "CurrentPP": 10,
+        "Type": "Coleottero"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "50": {
+    "Name": "Diglett",
+    "Hp": 10,
+    "CurrentHp": 10,
+    "Level": 5,
+    "Exp": 200,
+    "Type": "Terra",
+    "Attacks": [
+      {
+        "Name": "Graffio",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "51": {
+    "Name": "Dugtrio",
+    "Hp": 35,
+    "CurrentHp": 35,
+    "Level": 6,
+    "Exp": 203,
+    "Type": "Terra",
+    "Attacks": [
+      {
+        "Name": "Graffio",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Fossa",
+        "Power": 80,
+        "Accuracy": 100,
+        "PP": 10,
+        "CurrentPP": 10,
+        "Type": "Terra"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "52": {
+    "Name": "Meowth",
+    "Hp": 40,
+    "CurrentHp": 40,
+    "Level": 7,
+    "Exp": 206,
+    "Type": "Normale",
+    "Attacks": [
+      {
+        "Name": "Graffio",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "53": {
+    "Name": "Persian",
+    "Hp": 65,
+    "CurrentHp": 65,
+    "Level": 8,
+    "Exp": 209,
+    "Type": "Normale",
+    "Attacks": [
+      {
+        "Name": "Graffio",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Morso",
+        "Power": 60,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Buio"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "54": {
+    "Name": "Psyduck",
+    "Hp": 50,
+    "CurrentHp": 50,
+    "Level": 9,
+    "Exp": 212,
+    "Type": "Acqua",
+    "Attacks": [
+      {
+        "Name": "Graffio",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "55": {
+    "Name": "Golduck",
+    "Hp": 80,
+    "CurrentHp": 80,
+    "Level": 10,
+    "Exp": 215,
+    "Type": "Acqua",
+    "Attacks": [
+      {
+        "Name": "Graffio",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "56": {
+    "Name": "Mankey",
+    "Hp": 40,
+    "CurrentHp": 40,
+    "Level": 11,
+    "Exp": 218,
+    "Type": "Lotta",
+    "Attacks": [
+      {
+        "Name": "Graffio",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "57": {
+    "Name": "Primeape",
+    "Hp": 65,
+    "CurrentHp": 65,
+    "Level": 12,
+    "Exp": 221,
+    "Type": "Lotta",
+    "Attacks": [
+      {
+        "Name": "Colpokarate",
+        "Power": 50,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Lotta"
+      },
+      {
+        "Name": "Graffio",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Sfuriate",
+        "Power": 18,
+        "Accuracy": 80,
+        "PP": 15,
+        "CurrentPP": 15,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "58": {
+    "Name": "Growlithe",
+    "Hp": 55,
+    "CurrentHp": 55,
+    "Level": 13,
+    "Exp": 224,
+    "Type": "Fuoco",
+    "Attacks": [
+      {
+        "Name": "Morso",
+        "Power": 60,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Buio"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "59": {
+    "Name": "Arcanine",
+    "Hp": 90,
+    "CurrentHp": 90,
+    "Level": 14,
+    "Exp": 227,
+    "Type": "Fuoco",
+    "Attacks": [
+      {
+        "Name": "Riduttore",
+        "Power": 90,
+        "Accuracy": 85,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Braciere",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Fuoco"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "60": {
+    "Name": "Poliwag",
+    "Hp": 40,
+    "CurrentHp": 40,
+    "Level": 5,
+    "Exp": 230,
+    "Type": "Acqua",
+    "Attacks": [
+      {
+        "Name": "Bolla",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Acqua"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "61": {
+    "Name": "Poliwhirl",
+    "Hp": 65,
+    "CurrentHp": 65,
+    "Level": 6,
+    "Exp": 233,
+    "Type": "Acqua",
+    "Attacks": [
+      {
+        "Name": "Pistolacqua",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Acqua"
+      },
+      {
+        "Name": "Bolla",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Acqua"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "62": {
+    "Name": "Poliwrath",
+    "Hp": 90,
+    "CurrentHp": 90,
+    "Level": 7,
+    "Exp": 236,
+    "Type": "Acqua/Lotta",
+    "Attacks": [
+      {
+        "Name": "Doppiasberla",
+        "Power": 15,
+        "Accuracy": 85,
+        "PP": 10,
+        "CurrentPP": 10,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Corposcontro",
+        "Power": 85,
+        "Accuracy": 100,
+        "PP": 15,
+        "CurrentPP": 15,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Pistolacqua",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Acqua"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "63": {
+    "Name": "Abra",
+    "Hp": 25,
+    "CurrentHp": 25,
+    "Level": 8,
+    "Exp": 239,
+    "Type": "Psico",
+    "Attacks": [
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "64": {
+    "Name": "Kadabra",
+    "Hp": 40,
+    "CurrentHp": 40,
+    "Level": 9,
+    "Exp": 242,
+    "Type": "Psico",
+    "Attacks": [
+      {
+        "Name": "Confusione",
+        "Power": 50,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Psico"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "65": {
+    "Name": "Alakazam",
+    "Hp": 55,
+    "CurrentHp": 55,
+    "Level": 10,
+    "Exp": 245,
+    "Type": "Psico",
+    "Attacks": [
+      {
+        "Name": "Confusione",
+        "Power": 50,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Psico"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "66": {
+    "Name": "Machop",
+    "Hp": 70,
+    "CurrentHp": 70,
+    "Level": 11,
+    "Exp": 248,
+    "Type": "Lotta",
+    "Attacks": [
+      {
+        "Name": "Colpokarate",
+        "Power": 50,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Lotta"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "67": {
+    "Name": "Machoke",
+    "Hp": 80,
+    "CurrentHp": 80,
+    "Level": 12,
+    "Exp": 251,
+    "Type": "Lotta",
+    "Attacks": [
+      {
+        "Name": "Colpokarate",
+        "Power": 50,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Lotta"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "68": {
+    "Name": "Machamp",
+    "Hp": 90,
+    "CurrentHp": 90,
+    "Level": 13,
+    "Exp": 254,
+    "Type": "Lotta",
+    "Attacks": [
+      {
+        "Name": "Colpokarate",
+        "Power": 50,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Lotta"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "69": {
+    "Name": "Bellsprout",
+    "Hp": 50,
+    "CurrentHp": 50,
+    "Level": 14,
+    "Exp": 257,
+    "Type": "Erba/Veleno",
+    "Attacks": [
+      {
+        "Name": "Frustata",
+        "Power": 45,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Erba"
+      },
+      {
+        "Name": "Avvolgibotta",
+        "Power": 15,
+        "Accuracy": 90,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "70": {
+    "Name": "Weepinbell",
+    "Hp": 65,
+    "CurrentHp": 65,
+    "Level": 5,
+    "Exp": 260,
+    "Type": "Erba/Veleno",
+    "Attacks": [
+      {
+        "Name": "Frustata",
+        "Power": 45,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Erba"
+      },
+      {
+        "Name": "Avvolgibotta",
+        "Power": 15,
+        "Accuracy": 90,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "71": {
+    "Name": "Victreebel",
+    "Hp": 80,
+    "CurrentHp": 80,
+    "Level": 6,
+    "Exp": 263,
+    "Type": "Erba/Veleno",
+    "Attacks": [
+      {
+        "Name": "Acido",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Veleno"
+      },
+      {
+        "Name": "Foglielama",
+        "Power": 55,
+        "Accuracy": 95,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Erba"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "72": {
+    "Name": "Tentacool",
+    "Hp": 40,
+    "CurrentHp": 40,
+    "Level": 7,
+    "Exp": 266,
+    "Type": "Acqua/Veleno",
+    "Attacks": [
+      {
+        "Name": "Acido",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Veleno"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "73": {
+    "Name": "Tentacruel",
+    "Hp": 80,
+    "CurrentHp": 80,
+    "Level": 8,
+    "Exp": 269,
+    "Type": "Acqua/Veleno",
+    "Attacks": [
+      {
+        "Name": "Avvolgibotta",
+        "Power": 15,
+        "Accuracy": 90,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Acido",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Veleno"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "74": {
+    "Name": "Geodude",
+    "Hp": 40,
+    "CurrentHp": 40,
+    "Level": 9,
+    "Exp": 272,
+    "Type": "Roccia/Terra",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "75": {
+    "Name": "Graveler",
+    "Hp": 55,
+    "CurrentHp": 55,
+    "Level": 10,
+    "Exp": 275,
+    "Type": "Roccia/Terra",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "76": {
+    "Name": "Golem",
+    "Hp": 80,
+    "CurrentHp": 80,
+    "Level": 11,
+    "Exp": 278,
+    "Type": "Roccia/Terra",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "77": {
+    "Name": "Ponyta",
+    "Hp": 50,
+    "CurrentHp": 50,
+    "Level": 12,
+    "Exp": 281,
+    "Type": "Fuoco",
+    "Attacks": [
+      {
+        "Name": "Braciere",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Fuoco"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "78": {
+    "Name": "Rapidash",
+    "Hp": 65,
+    "CurrentHp": 65,
+    "Level": 13,
+    "Exp": 284,
+    "Type": "Fuoco",
+    "Attacks": [
+      {
+        "Name": "Pestone",
+        "Power": 65,
+        "Accuracy": 100,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Braciere",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Fuoco"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "79": {
+    "Name": "Slowpoke",
+    "Hp": 90,
+    "CurrentHp": 90,
+    "Level": 14,
+    "Exp": 287,
+    "Type": "Acqua/Psico",
+    "Attacks": [
+      {
+        "Name": "Confusione",
+        "Power": 50,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Psico"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "80": {
+    "Name": "Slowbro",
+    "Hp": 95,
+    "CurrentHp": 95,
+    "Level": 5,
+    "Exp": 290,
+    "Type": "Acqua/Psico",
+    "Attacks": [
+      {
+        "Name": "Bottintesta",
+        "Power": 70,
+        "Accuracy": 100,
+        "PP": 15,
+        "CurrentPP": 15,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Confusione",
+        "Power": 50,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Psico"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "81": {
+    "Name": "Magnemite",
+    "Hp": 25,
+    "CurrentHp": 25,
+    "Level": 6,
+    "Exp": 293,
+    "Type": "Elettro/Acciaio",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "82": {
+    "Name": "Magneton",
+    "Hp": 50,
+    "CurrentHp": 50,
+    "Level": 7,
+    "Exp": 296,
+    "Type": "Elettro/Acciaio",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Tuonoshock",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Elettro"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "83": {
+    "Name": "Farfetch’d",
+    "Hp": 52,
+    "CurrentHp": 52,
+    "Level": 8,
+    "Exp": 299,
+    "Type": "Normale/Volante",
+    "Attacks": [
+      {
+        "Name": "Beccata",
+        "Power": 35,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Volante"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "84": {
+    "Name": "Doduo",
+    "Hp": 35,
+    "CurrentHp": 35,
+    "Level": 9,
+    "Exp": 302,
+    "Type": "Normale/Volante",
+    "Attacks": [
+      {
+        "Name": "Beccata",
+        "Power": 35,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Volante"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "85": {
+    "Name": "Dodrio",
+    "Hp": 60,
+    "CurrentHp": 60,
+    "Level": 10,
+    "Exp": 305,
+    "Type": "Normale/Volante",
+    "Attacks": [
+      {
+        "Name": "Furia",
+        "Power": 15,
+        "Accuracy": 85,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Beccata",
+        "Power": 35,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Volante"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "86": {
+    "Name": "Seel",
+    "Hp": 65,
+    "CurrentHp": 65,
+    "Level": 11,
+    "Exp": 308,
+    "Type": "Acqua",
+    "Attacks": [
+      {
+        "Name": "Bottintesta",
+        "Power": 70,
+        "Accuracy": 100,
+        "PP": 15,
+        "CurrentPP": 15,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "87": {
+    "Name": "Dewgong",
+    "Hp": 90,
+    "CurrentHp": 90,
+    "Level": 12,
+    "Exp": 311,
+    "Type": "Acqua/Ghiaccio",
+    "Attacks": [
+      {
+        "Name": "Bottintesta",
+        "Power": 70,
+        "Accuracy": 100,
+        "PP": 15,
+        "CurrentPP": 15,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Raggiaurora",
+        "Power": 65,
+        "Accuracy": 100,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Ghiaccio"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "88": {
+    "Name": "Grimer",
+    "Hp": 80,
+    "CurrentHp": 80,
+    "Level": 13,
+    "Exp": 314,
+    "Type": "Veleno",
+    "Attacks": [
+      {
+        "Name": "Botta",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "89": {
+    "Name": "Muk",
+    "Hp": 105,
+    "CurrentHp": 105,
+    "Level": 14,
+    "Exp": 317,
+    "Type": "Veleno",
+    "Attacks": [
+      {
+        "Name": "Botta",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "90": {
+    "Name": "Shellder",
+    "Hp": 30,
+    "CurrentHp": 30,
+    "Level": 5,
+    "Exp": 320,
+    "Type": "Acqua",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "91": {
+    "Name": "Cloyster",
+    "Hp": 50,
+    "CurrentHp": 50,
+    "Level": 6,
+    "Exp": 323,
+    "Type": "Acqua/Ghiaccio",
+    "Attacks": [
+      {
+        "Name": "Raggiaurora",
+        "Power": 65,
+        "Accuracy": 100,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Ghiaccio"
+      },
+      {
+        "Name": "Tenaglia",
+        "Power": 35,
+        "Accuracy": 85,
+        "PP": 15,
+        "CurrentPP": 15,
+        "Type": "Acqua"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "92": {
+    "Name": "Gastly",
+    "Hp": 30,
+    "CurrentHp": 30,
+    "Level": 7,
+    "Exp": 326,
+    "Type": "Spettro/Veleno",
+    "Attacks": [
+      {
+        "Name": "Leccata",
+        "Power": 30,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Spettro"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "93": {
+    "Name": "Haunter",
+    "Hp": 45,
+    "CurrentHp": 45,
+    "Level": 8,
+    "Exp": 329,
+    "Type": "Spettro/Veleno",
+    "Attacks": [
+      {
+        "Name": "Leccata",
+        "Power": 30,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Spettro"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "94": {
+    "Name": "Gengar",
+    "Hp": 60,
+    "CurrentHp": 60,
+    "Level": 9,
+    "Exp": 332,
+    "Type": "Spettro/Veleno",
+    "Attacks": [
+      {
+        "Name": "Leccata",
+        "Power": 30,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Spettro"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "95": {
+    "Name": "Onix",
+    "Hp": 35,
+    "CurrentHp": 35,
+    "Level": 10,
+    "Exp": 335,
+    "Type": "Roccia/Terra",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "96": {
+    "Name": "Drowzee",
+    "Hp": 60,
+    "CurrentHp": 60,
+    "Level": 11,
+    "Exp": 338,
+    "Type": "Psico",
+    "Attacks": [
+      {
+        "Name": "Botta",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "97": {
+    "Name": "Hypno",
+    "Hp": 85,
+    "CurrentHp": 85,
+    "Level": 12,
+    "Exp": 341,
+    "Type": "Psico",
+    "Attacks": [
+      {
+        "Name": "Botta",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Confusione",
+        "Power": 50,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Psico"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "98": {
+    "Name": "Krabby",
+    "Hp": 30,
+    "CurrentHp": 30,
+    "Level": 13,
+    "Exp": 344,
+    "Type": "Acqua",
+    "Attacks": [
+      {
+        "Name": "Bolla",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Acqua"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "99": {
+    "Name": "Kingler",
+    "Hp": 55,
+    "CurrentHp": 55,
+    "Level": 14,
+    "Exp": 347,
+    "Type": "Acqua",
+    "Attacks": [
+      {
+        "Name": "Presa",
+        "Power": 55,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Bolla",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Acqua"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "100": {
+    "Name": "Voltorb",
+    "Hp": 40,
+    "CurrentHp": 40,
+    "Level": 5,
+    "Exp": 350,
+    "Type": "Elettro",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "101": {
+    "Name": "Electrode",
+    "Hp": 60,
+    "CurrentHp": 60,
+    "Level": 6,
+    "Exp": 353,
+    "Type": "Elettro",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "102": {
+    "Name": "Exeggcute",
+    "Hp": 60,
+    "CurrentHp": 60,
+    "Level": 7,
+    "Exp": 356,
+    "Type": "Erba/Psico",
+    "Attacks": [
+      {
+        "Name": "Attacco Pioggia",
+        "Power": 15,
+        "Accuracy": 85,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "103": {
+    "Name": "Exeggutor",
+    "Hp": 95,
+    "CurrentHp": 95,
+    "Level": 8,
+    "Exp": 359,
+    "Type": "Erba/Psico",
+    "Attacks": [
+      {
+        "Name": "Attacco Pioggia",
+        "Power": 15,
+        "Accuracy": 85,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "104": {
+    "Name": "Cubone",
+    "Hp": 50,
+    "CurrentHp": 50,
+    "Level": 9,
+    "Exp": 362,
+    "Type": "Terra",
+    "Attacks": [
+      {
+        "Name": "Ossoclava",
+        "Power": 65,
+        "Accuracy": 85,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Terra"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "105": {
+    "Name": "Marowak",
+    "Hp": 60,
+    "CurrentHp": 60,
+    "Level": 10,
+    "Exp": 365,
+    "Type": "Terra",
+    "Attacks": [
+      {
+        "Name": "Ossoclava",
+        "Power": 65,
+        "Accuracy": 85,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Terra"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "106": {
+    "Name": "Hitmonlee",
+    "Hp": 50,
+    "CurrentHp": 50,
+    "Level": 11,
+    "Exp": 368,
+    "Type": "Lotta",
+    "Attacks": [
+      {
+        "Name": "Doppiocalcio",
+        "Power": 30,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Lotta"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "107": {
+    "Name": "Hitmonchan",
+    "Hp": 50,
+    "CurrentHp": 50,
+    "Level": 12,
+    "Exp": 371,
+    "Type": "Lotta",
+    "Attacks": [
+      {
+        "Name": "Cometapugno",
+        "Power": 18,
+        "Accuracy": 85,
+        "PP": 15,
+        "CurrentPP": 15,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "108": {
+    "Name": "Lickitung",
+    "Hp": 90,
+    "CurrentHp": 90,
+    "Level": 13,
+    "Exp": 374,
+    "Type": "Normale",
+    "Attacks": [
+      {
+        "Name": "Pestone",
+        "Power": 65,
+        "Accuracy": 100,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Avvolgibotta",
+        "Power": 15,
+        "Accuracy": 90,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "109": {
+    "Name": "Koffing",
+    "Hp": 40,
+    "CurrentHp": 40,
+    "Level": 14,
+    "Exp": 377,
+    "Type": "Veleno",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Smog",
+        "Power": 30,
+        "Accuracy": 70,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Veleno"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "110": {
+    "Name": "Weezing",
+    "Hp": 65,
+    "CurrentHp": 65,
+    "Level": 5,
+    "Exp": 380,
+    "Type": "Veleno",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Smog",
+        "Power": 30,
+        "Accuracy": 70,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Veleno"
+      },
+      {
+        "Name": "Fango",
+        "Power": 65,
+        "Accuracy": 100,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Veleno"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "111": {
+    "Name": "Rhyhorn",
+    "Hp": 80,
+    "CurrentHp": 80,
+    "Level": 6,
+    "Exp": 383,
+    "Type": "Terra/Roccia",
+    "Attacks": [
+      {
+        "Name": "Incornata",
+        "Power": 65,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "112": {
+    "Name": "Rhydon",
+    "Hp": 105,
+    "CurrentHp": 105,
+    "Level": 7,
+    "Exp": 386,
+    "Type": "Terra/Roccia",
+    "Attacks": [
+      {
+        "Name": "Pestone",
+        "Power": 65,
+        "Accuracy": 100,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Incornata",
+        "Power": 65,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Furia",
+        "Power": 15,
+        "Accuracy": 85,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "113": {
+    "Name": "Chansey",
+    "Hp": 250,
+    "CurrentHp": 250,
+    "Level": 8,
+    "Exp": 389,
+    "Type": "Normale",
+    "Attacks": [
+      {
+        "Name": "Botta",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Doppiasberla",
+        "Power": 15,
+        "Accuracy": 85,
+        "PP": 10,
+        "CurrentPP": 10,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "114": {
+    "Name": "Tangela",
+    "Hp": 65,
+    "CurrentHp": 65,
+    "Level": 9,
+    "Exp": 392,
+    "Type": "Erba",
+    "Attacks": [
+      {
+        "Name": "Legatutto",
+        "Power": 15,
+        "Accuracy": 85,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Limitazione",
+        "Power": 10,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "115": {
+    "Name": "Kangaskhan",
+    "Hp": 105,
+    "CurrentHp": 105,
+    "Level": 10,
+    "Exp": 395,
+    "Type": "Normale",
+    "Attacks": [
+      {
+        "Name": "Cometapugno",
+        "Power": 18,
+        "Accuracy": 85,
+        "PP": 15,
+        "CurrentPP": 15,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Ira",
+        "Power": 20,
+        "Accuracy": 100,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "116": {
+    "Name": "Horsea",
+    "Hp": 30,
+    "CurrentHp": 30,
+    "Level": 11,
+    "Exp": 398,
+    "Type": "Acqua",
+    "Attacks": [
+      {
+        "Name": "Bolla",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Acqua"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "117": {
+    "Name": "Seadra",
+    "Hp": 55,
+    "CurrentHp": 55,
+    "Level": 12,
+    "Exp": 401,
+    "Type": "Acqua",
+    "Attacks": [
+      {
+        "Name": "Bolla",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Acqua"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "118": {
+    "Name": "Goldeen",
+    "Hp": 45,
+    "CurrentHp": 45,
+    "Level": 13,
+    "Exp": 404,
+    "Type": "Acqua",
+    "Attacks": [
+      {
+        "Name": "Beccata",
+        "Power": 35,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Volante"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "119": {
+    "Name": "Seaking",
+    "Hp": 80,
+    "CurrentHp": 80,
+    "Level": 14,
+    "Exp": 407,
+    "Type": "Acqua",
+    "Attacks": [
+      {
+        "Name": "Beccata",
+        "Power": 35,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Volante"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "120": {
+    "Name": "Staryu",
+    "Hp": 30,
+    "CurrentHp": 30,
+    "Level": 5,
+    "Exp": 410,
+    "Type": "Acqua",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "121": {
+    "Name": "Starmie",
+    "Hp": 60,
+    "CurrentHp": 60,
+    "Level": 6,
+    "Exp": 413,
+    "Type": "Acqua/Psico",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Pistolacqua",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Acqua"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "122": {
+    "Name": "Mr. Mime",
+    "Hp": 40,
+    "CurrentHp": 40,
+    "Level": 7,
+    "Exp": 416,
+    "Type": "Psico/Folletto",
+    "Attacks": [
+      {
+        "Name": "Confusione",
+        "Power": 50,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Psico"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "123": {
+    "Name": "Scyther",
+    "Hp": 70,
+    "CurrentHp": 70,
+    "Level": 8,
+    "Exp": 419,
+    "Type": "Coleottero/Volante",
+    "Attacks": [
+      {
+        "Name": "Attacco Rapido",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "124": {
+    "Name": "Jynx",
+    "Hp": 65,
+    "CurrentHp": 65,
+    "Level": 9,
+    "Exp": 422,
+    "Type": "Ghiaccio/Psico",
+    "Attacks": [
+      {
+        "Name": "Botta",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "125": {
+    "Name": "Electabuzz",
+    "Hp": 65,
+    "CurrentHp": 65,
+    "Level": 10,
+    "Exp": 425,
+    "Type": "Elettro",
+    "Attacks": [
+      {
+        "Name": "Attacco Rapido",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "126": {
+    "Name": "Magmar",
+    "Hp": 65,
+    "CurrentHp": 65,
+    "Level": 11,
+    "Exp": 428,
+    "Type": "Fuoco",
+    "Attacks": [
+      {
+        "Name": "Braciere",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Fuoco"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "127": {
+    "Name": "Pinsir",
+    "Hp": 65,
+    "CurrentHp": 65,
+    "Level": 12,
+    "Exp": 431,
+    "Type": "Coleottero",
+    "Attacks": [
+      {
+        "Name": "Presa",
+        "Power": 55,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "128": {
+    "Name": "Tauros",
+    "Hp": 75,
+    "CurrentHp": 75,
+    "Level": 13,
+    "Exp": 434,
+    "Type": "Normale",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "129": {
+    "Name": "Magikarp",
+    "Hp": 20,
+    "CurrentHp": 20,
+    "Level": 14,
+    "Exp": 437,
+    "Type": "Acqua",
+    "Attacks": [
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "130": {
+    "Name": "Gyarados",
+    "Hp": 95,
+    "CurrentHp": 95,
+    "Level": 5,
+    "Exp": 440,
+    "Type": "Acqua/Volante",
+    "Attacks": [
+      {
+        "Name": "Morso",
+        "Power": 60,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Buio"
+      },
+      {
+        "Name": "Idropompa",
+        "Power": 110,
+        "Accuracy": 80,
+        "PP": 5,
+        "CurrentPP": 5,
+        "Type": "Acqua"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "131": {
+    "Name": "Lapras",
+    "Hp": 130,
+    "CurrentHp": 130,
+    "Level": 6,
+    "Exp": 443,
+    "Type": "Acqua/Ghiaccio",
+    "Attacks": [
+      {
+        "Name": "Pistolacqua",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Acqua"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "132": {
+    "Name": "Ditto",
+    "Hp": 48,
+    "CurrentHp": 48,
+    "Level": 7,
+    "Exp": 446,
+    "Type": "Normale",
+    "Attacks": [
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "133": {
+    "Name": "Eevee",
+    "Hp": 55,
+    "CurrentHp": 55,
+    "Level": 8,
+    "Exp": 449,
+    "Type": "Normale",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "134": {
+    "Name": "Vaporeon",
+    "Hp": 130,
+    "CurrentHp": 130,
+    "Level": 9,
+    "Exp": 452,
+    "Type": "Acqua",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Pistolacqua",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Acqua"
+      },
+      {
+        "Name": "Attacco Rapido",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "135": {
+    "Name": "Jolteon",
+    "Hp": 65,
+    "CurrentHp": 65,
+    "Level": 10,
+    "Exp": 455,
+    "Type": "Elettro",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Tuonoshock",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Elettro"
+      },
+      {
+        "Name": "Attacco Rapido",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "136": {
+    "Name": "Flareon",
+    "Hp": 65,
+    "CurrentHp": 65,
+    "Level": 11,
+    "Exp": 458,
+    "Type": "Fuoco",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Braciere",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Fuoco"
+      },
+      {
+        "Name": "Attacco Rapido",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "137": {
+    "Name": "Porygon",
+    "Hp": 65,
+    "CurrentHp": 65,
+    "Level": 12,
+    "Exp": 461,
+    "Type": "Normale",
+    "Attacks": [
+      {
+        "Name": "Azione",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "138": {
+    "Name": "Omanyte",
+    "Hp": 35,
+    "CurrentHp": 35,
+    "Level": 13,
+    "Exp": 464,
+    "Type": "Roccia/Acqua",
+    "Attacks": [
+      {
+        "Name": "Pistolacqua",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Acqua"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "139": {
+    "Name": "Omastar",
+    "Hp": 70,
+    "CurrentHp": 70,
+    "Level": 14,
+    "Exp": 467,
+    "Type": "Roccia/Acqua",
+    "Attacks": [
+      {
+        "Name": "Incornata",
+        "Power": 65,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Pistolacqua",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Acqua"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "140": {
+    "Name": "Kabuto",
+    "Hp": 30,
+    "CurrentHp": 30,
+    "Level": 5,
+    "Exp": 470,
+    "Type": "Roccia/Acqua",
+    "Attacks": [
+      {
+        "Name": "Graffio",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "141": {
+    "Name": "Kabutops",
+    "Hp": 60,
+    "CurrentHp": 60,
+    "Level": 6,
+    "Exp": 473,
+    "Type": "Roccia/Acqua",
+    "Attacks": [
+      {
+        "Name": "Graffio",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Normale"
+      },
+      {
+        "Name": "Assorbimento",
+        "Power": 20,
+        "Accuracy": 100,
+        "PP": 25,
+        "CurrentPP": 25,
+        "Type": "Erba"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "142": {
+    "Name": "Aerodactyl",
+    "Hp": 80,
+    "CurrentHp": 80,
+    "Level": 7,
+    "Exp": 476,
+    "Type": "Roccia/Volante",
+    "Attacks": [
+      {
+        "Name": "Attacco d’Ala",
+        "Power": 60,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Volante"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "143": {
+    "Name": "Snorlax",
+    "Hp": 160,
+    "CurrentHp": 160,
+    "Level": 8,
+    "Exp": 479,
+    "Type": "Normale",
+    "Attacks": [
+      {
+        "Name": "Bottintesta",
+        "Power": 70,
+        "Accuracy": 100,
+        "PP": 15,
+        "CurrentPP": 15,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "144": {
+    "Name": "Articuno",
+    "Hp": 90,
+    "CurrentHp": 90,
+    "Level": 9,
+    "Exp": 482,
+    "Type": "Ghiaccio/Volante",
+    "Attacks": [
+      {
+        "Name": "Geloraggio",
+        "Power": 90,
+        "Accuracy": 100,
+        "PP": 10,
+        "CurrentPP": 10,
+        "Type": "Ghiaccio"
+      },
+      {
+        "Name": "Beccata",
+        "Power": 35,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Volante"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "145": {
+    "Name": "Zapdos",
+    "Hp": 90,
+    "CurrentHp": 90,
+    "Level": 10,
+    "Exp": 485,
+    "Type": "Elettro/Volante",
+    "Attacks": [
+      {
+        "Name": "Perforbecco",
+        "Power": 80,
+        "Accuracy": 100,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Volante"
+      },
+      {
+        "Name": "Tuonoshock",
+        "Power": 40,
+        "Accuracy": 100,
+        "PP": 30,
+        "CurrentPP": 30,
+        "Type": "Elettro"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "146": {
+    "Name": "Moltres",
+    "Hp": 90,
+    "CurrentHp": 90,
+    "Level": 11,
+    "Exp": 488,
+    "Type": "Fuoco/Volante",
+    "Attacks": [
+      {
+        "Name": "Beccata",
+        "Power": 35,
+        "Accuracy": 100,
+        "PP": 35,
+        "CurrentPP": 35,
+        "Type": "Volante"
+      },
+      {
+        "Name": "Turbofuoco",
+        "Power": 35,
+        "Accuracy": 85,
+        "PP": 15,
+        "CurrentPP": 15,
+        "Type": "Fuoco"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "147": {
+    "Name": "Dratini",
+    "Hp": 41,
+    "CurrentHp": 41,
+    "Level": 12,
+    "Exp": 491,
+    "Type": "Drago",
+    "Attacks": [
+      {
+        "Name": "Avvolgibotta",
+        "Power": 15,
+        "Accuracy": 90,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "148": {
+    "Name": "Dragonair",
+    "Hp": 61,
+    "CurrentHp": 61,
+    "Level": 13,
+    "Exp": 494,
+    "Type": "Drago",
+    "Attacks": [
+      {
+        "Name": "Avvolgibotta",
+        "Power": 15,
+        "Accuracy": 90,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  },
+  "149": {
+    "Name": "Dragonite",
+    "Hp": 91,
+    "CurrentHp": 91,
+    "Level": 14,
+    "Exp": 497,
+    "Type": "Drago/Volante",
+    "Attacks": [
+      {
+        "Name": "Avvolgibotta",
+        "Power": 15,
+        "Accuracy": 90,
+        "PP": 20,
+        "CurrentPP": 20,
+        "Type": "Normale"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      },
+      {
+        "Name": "—",
+        "Power": 0,
+        "Accuracy": 0,
+        "PP": 0,
+        "CurrentPP": 0,
+        "Type": "—"
+      }
+    ]
+  }
+}

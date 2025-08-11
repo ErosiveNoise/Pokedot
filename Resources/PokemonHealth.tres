@@ -1,0 +1,12 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://ocd24lkgyx01"]
+
+[ext_resource type="FontFile" uid="uid://bou7rocohpd7j" path="res://Resources/pkmnfl.ttf" id="1_yif7h"]
+
+[resource]
+font = ExtResource("1_yif7h")
+font_size = 70
+outline_size = 10
+outline_color = Color(0.439216, 0.439216, 0.439216, 1)
+shadow_size = 30
+shadow_color = Color(0.439216, 0.439216, 0.439216, 1)
+shadow_offset = Vector2(3, 2)

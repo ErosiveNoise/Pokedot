@@ -1,0 +1,236 @@
+[gd_scene load_steps=15 format=3 uid="uid://cdnmiglro3bye"]
+
+[ext_resource type="Script" uid="uid://cxrtabc7hvatk" path="res://Scripts/Game/Battle/Battle.cs" id="1_3ihc8"]
+[ext_resource type="Texture2D" uid="uid://dj45wcfit1ylr" path="res://Assets/Battle/ground.png" id="2_gunap"]
+[ext_resource type="Texture2D" uid="uid://c7bqo01p36bls" path="res://Assets/Battle/battleBGnoSmall.png" id="3_g1sps"]
+[ext_resource type="PackedScene" uid="uid://cvjo5peetwqwh" path="res://Scenes/Battle/BattleMenu.tscn" id="5_rremj"]
+[ext_resource type="PackedScene" uid="uid://dugyvwb2cp72s" path="res://Scenes/Battle/InfoPokemon.tscn" id="6_dcr6b"]
+[ext_resource type="FontFile" uid="uid://dcosh4tj4ih5h" path="res://Resources/VeniteAdoremus-rgRBA.ttf" id="6_g1sps"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gunap"]
+
+[sub_resource type="Animation" id="Animation_g1sps"]
+resource_name = "EnemyDie"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0.5, 0.5), Vector2(0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_dcr6b"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(2.91525, 2.91525)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_g1sps"]
+_data = {
+&"EnemyDie": SubResource("Animation_g1sps"),
+&"RESET": SubResource("Animation_dcr6b")
+}
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3ihc8"]
+
+[sub_resource type="Animation" id="Animation_07e4u"]
+resource_name = "EnemyDie"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0.5, 0.5), Vector2(0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_tmq01"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_tmq01"]
+_data = {
+&"EnemyDie": SubResource("Animation_07e4u"),
+&"RESET": SubResource("Animation_tmq01")
+}
+
+[node name="Battle" type="Control" node_paths=PackedStringArray("_enemyPokemonSprite", "_enemyEffectSprite", "_myPokemonSprite", "_enemyPokemonHealthBar", "_myPokemonHealthBar", "_enemyInfoPokemon", "_myInfoPokemon", "_battleMenu", "_attackLabel", "_finalLabel", "_introLabel", "_viewport")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_3ihc8")
+_enemyPokemonSprite = NodePath("Enemy")
+_enemyEffectSprite = NodePath("EnemyEffectSprite")
+_myPokemonSprite = NodePath("MyPokemon")
+_enemyPokemonHealthBar = NodePath("EnemyInfoPokemon/HealthBar")
+_myPokemonHealthBar = NodePath("MyInfoPokemon/HealthBar")
+_enemyInfoPokemon = NodePath("EnemyInfoPokemon")
+_myInfoPokemon = NodePath("MyInfoPokemon")
+_battleMenu = NodePath("BattleMenu")
+_attackLabel = NodePath("AttackLabel")
+_finalLabel = NodePath("FinalLabel")
+_introLabel = NodePath("IntroLabel")
+_viewport = NodePath("SubViewport")
+metadata/_edit_use_anchors_ = true
+
+[node name="Background" type="TextureRect" parent="."]
+custom_minimum_size = Vector2(0, 550)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 4
+texture = ExtResource("2_gunap")
+expand_mode = 1
+
+[node name="GUI" type="TextureRect" parent="."]
+custom_minimum_size = Vector2(0, 550)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 4
+texture = ExtResource("3_g1sps")
+expand_mode = 1
+
+[node name="Enemy" type="AnimatedSprite2D" parent="."]
+position = Vector2(1421, 435)
+scale = Vector2(2.91525, 2.91525)
+sprite_frames = SubResource("SpriteFrames_gunap")
+autoplay = "default"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Enemy"]
+libraries = {
+&"": SubResource("AnimationLibrary_g1sps")
+}
+
+[node name="EnemyEffectSprite" type="Sprite2D" parent="."]
+position = Vector2(1421, 435)
+
+[node name="EnemyInfoPokemon" parent="." instance=ExtResource("6_dcr6b")]
+position = Vector2(1528, 18)
+scale = Vector2(1.8, 1.8)
+
+[node name="MyPokemon" type="AnimatedSprite2D" parent="."]
+position = Vector2(478, 663)
+sprite_frames = SubResource("SpriteFrames_3ihc8")
+autoplay = "default"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="MyPokemon"]
+libraries = {
+&"": SubResource("AnimationLibrary_tmq01")
+}
+
+[node name="MyEffectSprite" type="Sprite2D" parent="."]
+position = Vector2(1421, 435)
+
+[node name="MyInfoPokemon" parent="." instance=ExtResource("6_dcr6b")]
+position = Vector2(18, 965)
+scale = Vector2(1.8, 1.8)
+
+[node name="SubViewport" type="SubViewport" parent="."]
+transparent_bg = true
+handle_input_locally = false
+render_target_update_mode = 4
+
+[node name="Camera3D" type="Camera3D" parent="SubViewport"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, -2.32806)
+
+[node name="BattleMenu" parent="." instance=ExtResource("5_rremj")]
+offset_left = 1234.0
+offset_top = 852.0
+offset_right = 1234.0
+offset_bottom = 852.0
+scale = Vector2(0.940655, 0.957582)
+
+[node name="AttackLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 792.0
+offset_top = 746.0
+offset_right = 1897.0
+offset_bottom = 813.0
+theme_override_colors/font_color = Color(0.995254, 0.347262, 0.280858, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = -7
+theme_override_constants/shadow_offset_y = -3
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("6_g1sps")
+theme_override_font_sizes/font_size = 60
+text = "PROVA"
+horizontal_alignment = 2
+
+[node name="FinalLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 360.0
+offset_top = 420.0
+offset_right = 1507.0
+offset_bottom = 639.0
+theme_override_colors/font_color = Color(0.995254, 0.347262, 0.280858, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = -7
+theme_override_constants/shadow_offset_y = -3
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("6_g1sps")
+theme_override_font_sizes/font_size = 200
+text = "VITTORIA"
+horizontal_alignment = 2
+
+[node name="IntroLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 81.0
+offset_top = 382.0
+offset_right = 1823.0
+offset_bottom = 470.0
+theme_override_colors/font_color = Color(0.995254, 0.347262, 0.280858, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = -7
+theme_override_constants/shadow_offset_y = -3
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("6_g1sps")
+theme_override_font_sizes/font_size = 80
+text = "VITTORIA"
+horizontal_alignment = 1
+
+[editable path="EnemyInfoPokemon"]
+[editable path="MyInfoPokemon"]

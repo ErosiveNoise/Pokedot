@@ -1,0 +1,54 @@
+[gd_scene load_steps=7 format=3 uid="uid://dp2n0pxlf2cbk"]
+
+[ext_resource type="Script" uid="uid://1ltoygv3uydj" path="res://Scripts/Core/SpaceManager.cs" id="1_2f5kf"]
+[ext_resource type="AudioStream" uid="uid://d3hov2dflrdx6" path="res://Assets/Music/1min-2021-08-17_-_8_Bit_Nostalgia_-_www.FesliyanStudios.com.mp3" id="2_wiyo5"]
+[ext_resource type="Shader" uid="uid://n6lyufe6tyyf" path="res://Scenes/Core/Blur.gdshader" id="3_imsdi"]
+[ext_resource type="Texture2D" uid="uid://dsdsja68j07ot" path="res://Assets/Enviroments/mask_spotlight_blur.png" id="4_qn75w"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_dgsjq"]
+shader = ExtResource("3_imsdi")
+shader_parameter/mask = ExtResource("4_qn75w")
+shader_parameter/blur_radius = 4.0
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_wiyo5"]
+viewport_path = NodePath("CurrentScene/SubViewportContainer/SubViewport")
+
+[node name="SpaceManager" type="Node" node_paths=PackedStringArray("CurrentScene", "BlurTexture")]
+script = ExtResource("1_2f5kf")
+CurrentScene = NodePath("CurrentScene/SubViewportContainer/SubViewport")
+BlurTexture = NodePath("CurrentScene/SubViewportContainer/BlurTexture")
+
+[node name="CurrentScene" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="CurrentScene"]
+y_sort_enabled = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stretch = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="CurrentScene/SubViewportContainer"]
+stream = ExtResource("2_wiyo5")
+volume_db = -20.0
+
+[node name="SubViewport" type="SubViewport" parent="CurrentScene/SubViewportContainer"]
+transparent_bg = true
+handle_input_locally = false
+canvas_item_default_texture_filter = 0
+size = Vector2i(1920, 1080)
+render_target_update_mode = 4
+
+[node name="BlurTexture" type="TextureRect" parent="CurrentScene/SubViewportContainer"]
+material = SubResource("ShaderMaterial_dgsjq")
+layout_mode = 2
+mouse_filter = 2
+texture = SubResource("ViewportTexture_wiyo5")

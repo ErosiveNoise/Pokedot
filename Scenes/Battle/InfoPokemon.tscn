@@ -1,0 +1,58 @@
+[gd_scene load_steps=5 format=3 uid="uid://dugyvwb2cp72s"]
+
+[ext_resource type="Texture2D" uid="uid://brepi444xhoit" path="res://Assets/Battle/infoBG.png" id="1_abseu"]
+[ext_resource type="PackedScene" uid="uid://dtiwkph5a66do" path="res://Scenes/Battle/HealthBar.tscn" id="2_bl4xp"]
+[ext_resource type="FontFile" uid="uid://chrgltkwiqw4w" path="res://Resources/pokemon_pixel_font.ttf" id="3_abseu"]
+[ext_resource type="LabelSettings" uid="uid://cgipmvohyk3e8" path="res://Resources/InfoPokemon_label_settings.tres" id="3_bl4xp"]
+
+[node name="InfoPokemon" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.83004, 0.485149)
+texture = ExtResource("1_abseu")
+centered = false
+
+[node name="HealthBar" parent="." instance=ExtResource("2_bl4xp")]
+offset_left = 28.0
+offset_top = 30.0
+offset_right = 192.0
+offset_bottom = 41.0
+
+[node name="Nome" type="Label" parent="."]
+offset_left = 15.0
+offset_top = 8.0
+offset_right = 141.0
+offset_bottom = 22.0
+size_flags_horizontal = 3
+text = "Name"
+label_settings = ExtResource("3_bl4xp")
+
+[node name="HP" type="Label" parent="."]
+offset_left = 12.0
+offset_top = 29.0
+offset_right = 24.0
+offset_bottom = 43.0
+size_flags_horizontal = 3
+theme_override_fonts/font = ExtResource("3_abseu")
+text = "HP"
+label_settings = ExtResource("3_bl4xp")
+
+[node name="Level" type="Label" parent="."]
+offset_left = 145.0
+offset_top = 8.0
+offset_right = 173.0
+offset_bottom = 22.0
+size_flags_horizontal = 3
+theme_override_fonts/font = ExtResource("3_abseu")
+text = "Level	"
+label_settings = ExtResource("3_bl4xp")
+
+[node name="LevelNr" type="Label" parent="."]
+offset_left = 179.0
+offset_top = 8.0
+offset_right = 197.0
+offset_bottom = 22.0
+size_flags_horizontal = 3
+theme_override_fonts/font = ExtResource("3_abseu")
+text = "38"
+label_settings = ExtResource("3_bl4xp")

@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://d3elfppxm6re1"]
+
+[ext_resource type="Script" uid="uid://d0fu8etr8rr2d" path="res://Scripts/Game/Levels/SceneTrigger.cs" id="1_l5now"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vr863"]
+size = Vector2(16, 16)
+
+[node name="SceneTrigger" type="Area2D" node_paths=PackedStringArray("Spawn", "CollisionShape2D")]
+script = ExtResource("1_l5now")
+Spawn = NodePath("Spawn")
+CollisionShape2D = NodePath("CollisionShape2D")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 1)
+shape = SubResource("RectangleShape2D_vr863")
+
+[node name="Spawn" type="Marker2D" parent="."]
+
+[connection signal="body_entered" from="." to="." method="OnBodyEntered"]
