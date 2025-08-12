@@ -1,12 +1,14 @@
 # ---------------------
 # Godot specific
 # ---------------------
-.import/                  # File di importazione generati automaticamente
-.export/                  # Cartella creata in alcune versioni di Godot
-export.cfg                # Configurazioni di esportazione
-export_presets.cfg        # Preset di esportazione
+.import/
+.export/
+.godot/
+export.cfg
+export_presets.cfg
 Assets/
 PolyBlocks/
+Resources/
 
 # Build/Export files
 *.exe
@@ -17,6 +19,7 @@ PolyBlocks/
 *.wasm
 *.html
 *.import
+*.uid
 
 # Se non vuoi includere i build giocabili nel repo
 # commenta queste righe se invece vuoi tenerli
@@ -27,8 +30,8 @@ releases/
 # ---------------------
 # Sistema e editor
 # ---------------------
-.DS_Store                 # macOS
-Thumbs.db                 # Windows
+.DS_Store
+Thumbs.db
 ehthumbs.db
 Icon?
 desktop.ini
